@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5106D60D21EF199800F392D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5106D60C21EF199800F392D4 /* AppDelegate.m */; };
+		5106D61021EF199800F392D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5106D60F21EF199800F392D4 /* ViewController.m */; };
+		5106D61321EF199800F392D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5106D61121EF199800F392D4 /* Main.storyboard */; };
+		5106D61521EF199900F392D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5106D61421EF199900F392D4 /* Assets.xcassets */; };
+		5106D61821EF199900F392D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5106D61621EF199900F392D4 /* LaunchScreen.storyboard */; };
+		5106D61B21EF199900F392D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5106D61A21EF199900F392D4 /* main.m */; };
+		5106D62521EF199900F392D4 /* ZYCycleScrollView_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5106D62421EF199900F392D4 /* ZYCycleScrollView_OCTests.m */; };
+		5106D63021EF199900F392D4 /* ZYCycleScrollView_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5106D62F21EF199900F392D4 /* ZYCycleScrollView_OCUITests.m */; };
+		511988C421F5B16400130E4F /* ZYCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 511988C321F5B16400130E4F /* ZYCycleScrollView.m */; };
+		621AFA42231C2736A481E240 /* libPods-ZYCycleScrollView_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC9DA96BBD2DDBBB78C1475 /* libPods-ZYCycleScrollView_OC.a */; };
+		8DACBEF07099D50FCA22A66B /* libPods-ZYCycleScrollView_OCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C4DA0E4CB8558239D14E2B /* libPods-ZYCycleScrollView_OCUITests.a */; };
+		F26FCF1B4B10E6AEEB4755EC /* libPods-ZYCycleScrollView_OCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B70E085B95B3A247512BD1 /* libPods-ZYCycleScrollView_OCTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5106D62121EF199900F392D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5106D60021EF199800F392D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5106D60721EF199800F392D4;
+			remoteInfo = ZYCycleScrollView_OC;
+		};
+		5106D62C21EF199900F392D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5106D60021EF199800F392D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5106D60721EF199800F392D4;
+			remoteInfo = ZYCycleScrollView_OC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A25FF8270B8125B5F7059F5 /* Pods-ZYCycleScrollView_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCycleScrollView_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYCycleScrollView_OC/Pods-ZYCycleScrollView_OC.release.xcconfig"; sourceTree = "<group>"; };
+		478C1E309961B3E31787B10A /* Pods-ZYCycleScrollView_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCycleScrollView_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYCycleScrollView_OC/Pods-ZYCycleScrollView_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		5106D60821EF199800F392D4 /* ZYCycleScrollView_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCycleScrollView_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5106D60B21EF199800F392D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5106D60C21EF199800F392D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5106D60E21EF199800F392D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5106D60F21EF199800F392D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5106D61221EF199800F392D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5106D61421EF199900F392D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5106D61721EF199900F392D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5106D61921EF199900F392D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5106D61A21EF199900F392D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5106D62021EF199900F392D4 /* ZYCycleScrollView_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCycleScrollView_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5106D62421EF199900F392D4 /* ZYCycleScrollView_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCycleScrollView_OCTests.m; sourceTree = "<group>"; };
+		5106D62621EF199900F392D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5106D62B21EF199900F392D4 /* ZYCycleScrollView_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCycleScrollView_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5106D62F21EF199900F392D4 /* ZYCycleScrollView_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCycleScrollView_OCUITests.m; sourceTree = "<group>"; };
+		5106D63121EF199900F392D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511988C221F5B16400130E4F /* ZYCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCycleScrollView.h; sourceTree = "<group>"; };
+		511988C321F5B16400130E4F /* ZYCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCycleScrollView.m; sourceTree = "<group>"; };
+		55B70E085B95B3A247512BD1 /* libPods-ZYCycleScrollView_OCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYCycleScrollView_OCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6450AEE1AE34140344CDAFD1 /* Pods-ZYCycleScrollView_OCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCycleScrollView_OCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYCycleScrollView_OCTests/Pods-ZYCycleScrollView_OCTests.release.xcconfig"; sourceTree = "<group>"; };
+		842B9F7760607C97BBD02C0D /* Pods-ZYCycleScrollView_OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCycleScrollView_OCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYCycleScrollView_OCUITests/Pods-ZYCycleScrollView_OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC9DA96BBD2DDBBB78C1475 /* libPods-ZYCycleScrollView_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYCycleScrollView_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE11F78E96BD53D0CB51F4A0 /* Pods-ZYCycleScrollView_OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCycleScrollView_OCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYCycleScrollView_OCUITests/Pods-ZYCycleScrollView_OCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8C4DA0E4CB8558239D14E2B /* libPods-ZYCycleScrollView_OCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYCycleScrollView_OCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9B77BFD309FD27B5A73F5F /* Pods-ZYCycleScrollView_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCycleScrollView_OCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYCycleScrollView_OCTests/Pods-ZYCycleScrollView_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5106D60521EF199800F392D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621AFA42231C2736A481E240 /* libPods-ZYCycleScrollView_OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5106D61D21EF199900F392D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FCF1B4B10E6AEEB4755EC /* libPods-ZYCycleScrollView_OCTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5106D62821EF199900F392D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DACBEF07099D50FCA22A66B /* libPods-ZYCycleScrollView_OCUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5106D5FF21EF199800F392D4 = {
+			isa = PBXGroup;
+			children = (
+				5106D60A21EF199800F392D4 /* ZYCycleScrollView_OC */,
+				5106D62321EF199900F392D4 /* ZYCycleScrollView_OCTests */,
+				5106D62E21EF199900F392D4 /* ZYCycleScrollView_OCUITests */,
+				5106D60921EF199800F392D4 /* Products */,
+				5CD148DF9AEFD296C6718C1E /* Pods */,
+				F41017147E9B3074BC325A24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5106D60921EF199800F392D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5106D60821EF199800F392D4 /* ZYCycleScrollView_OC.app */,
+				5106D62021EF199900F392D4 /* ZYCycleScrollView_OCTests.xctest */,
+				5106D62B21EF199900F392D4 /* ZYCycleScrollView_OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5106D60A21EF199800F392D4 /* ZYCycleScrollView_OC */ = {
+			isa = PBXGroup;
+			children = (
+				5106D60B21EF199800F392D4 /* AppDelegate.h */,
+				5106D60C21EF199800F392D4 /* AppDelegate.m */,
+				5106D60E21EF199800F392D4 /* ViewController.h */,
+				5106D60F21EF199800F392D4 /* ViewController.m */,
+				5106D63D21EF19B900F392D4 /* ZYCycleScrollView */,
+				5106D61121EF199800F392D4 /* Main.storyboard */,
+				5106D61421EF199900F392D4 /* Assets.xcassets */,
+				5106D61621EF199900F392D4 /* LaunchScreen.storyboard */,
+				5106D61921EF199900F392D4 /* Info.plist */,
+				5106D61A21EF199900F392D4 /* main.m */,
+			);
+			path = ZYCycleScrollView_OC;
+			sourceTree = "<group>";
+		};
+		5106D62321EF199900F392D4 /* ZYCycleScrollView_OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				5106D62421EF199900F392D4 /* ZYCycleScrollView_OCTests.m */,
+				5106D62621EF199900F392D4 /* Info.plist */,
+			);
+			path = ZYCycleScrollView_OCTests;
+			sourceTree = "<group>";
+		};
+		5106D62E21EF199900F392D4 /* ZYCycleScrollView_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5106D62F21EF199900F392D4 /* ZYCycleScrollView_OCUITests.m */,
+				5106D63121EF199900F392D4 /* Info.plist */,
+			);
+			path = ZYCycleScrollView_OCUITests;
+			sourceTree = "<group>";
+		};
+		5106D63D21EF19B900F392D4 /* ZYCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				511988C221F5B16400130E4F /* ZYCycleScrollView.h */,
+				511988C321F5B16400130E4F /* ZYCycleScrollView.m */,
+			);
+			path = ZYCycleScrollView;
+			sourceTree = "<group>";
+		};
+		5CD148DF9AEFD296C6718C1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				478C1E309961B3E31787B10A /* Pods-ZYCycleScrollView_OC.debug.xcconfig */,
+				3A25FF8270B8125B5F7059F5 /* Pods-ZYCycleScrollView_OC.release.xcconfig */,
+				EB9B77BFD309FD27B5A73F5F /* Pods-ZYCycleScrollView_OCTests.debug.xcconfig */,
+				6450AEE1AE34140344CDAFD1 /* Pods-ZYCycleScrollView_OCTests.release.xcconfig */,
+				842B9F7760607C97BBD02C0D /* Pods-ZYCycleScrollView_OCUITests.debug.xcconfig */,
+				AE11F78E96BD53D0CB51F4A0 /* Pods-ZYCycleScrollView_OCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F41017147E9B3074BC325A24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9DA96BBD2DDBBB78C1475 /* libPods-ZYCycleScrollView_OC.a */,
+				55B70E085B95B3A247512BD1 /* libPods-ZYCycleScrollView_OCTests.a */,
+				B8C4DA0E4CB8558239D14E2B /* libPods-ZYCycleScrollView_OCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5106D60721EF199800F392D4 /* ZYCycleScrollView_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5106D63421EF199900F392D4 /* Build configuration list for PBXNativeTarget "ZYCycleScrollView_OC" */;
+			buildPhases = (
+				E2380CC306A16E8DB96C9248 /* [CP] Check Pods Manifest.lock */,
+				5106D60421EF199800F392D4 /* Sources */,
+				5106D60521EF199800F392D4 /* Frameworks */,
+				5106D60621EF199800F392D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYCycleScrollView_OC;
+			productName = ZYCycleScrollView_OC;
+			productReference = 5106D60821EF199800F392D4 /* ZYCycleScrollView_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5106D61F21EF199900F392D4 /* ZYCycleScrollView_OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5106D63721EF199900F392D4 /* Build configuration list for PBXNativeTarget "ZYCycleScrollView_OCTests" */;
+			buildPhases = (
+				8ADF7E4E939DA16DA5B3ECEC /* [CP] Check Pods Manifest.lock */,
+				5106D61C21EF199900F392D4 /* Sources */,
+				5106D61D21EF199900F392D4 /* Frameworks */,
+				5106D61E21EF199900F392D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5106D62221EF199900F392D4 /* PBXTargetDependency */,
+			);
+			name = ZYCycleScrollView_OCTests;
+			productName = ZYCycleScrollView_OCTests;
+			productReference = 5106D62021EF199900F392D4 /* ZYCycleScrollView_OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5106D62A21EF199900F392D4 /* ZYCycleScrollView_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5106D63A21EF199900F392D4 /* Build configuration list for PBXNativeTarget "ZYCycleScrollView_OCUITests" */;
+			buildPhases = (
+				8CD61976C24B4E81E08ED957 /* [CP] Check Pods Manifest.lock */,
+				5106D62721EF199900F392D4 /* Sources */,
+				5106D62821EF199900F392D4 /* Frameworks */,
+				5106D62921EF199900F392D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5106D62D21EF199900F392D4 /* PBXTargetDependency */,
+			);
+			name = ZYCycleScrollView_OCUITests;
+			productName = ZYCycleScrollView_OCUITests;
+			productReference = 5106D62B21EF199900F392D4 /* ZYCycleScrollView_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5106D60021EF199800F392D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sogubaby;
+				TargetAttributes = {
+					5106D60721EF199800F392D4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5106D61F21EF199900F392D4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5106D60721EF199800F392D4;
+					};
+					5106D62A21EF199900F392D4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5106D60721EF199800F392D4;
+					};
+				};
+			};
+			buildConfigurationList = 5106D60321EF199800F392D4 /* Build configuration list for PBXProject "ZYCycleScrollView_OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5106D5FF21EF199800F392D4;
+			productRefGroup = 5106D60921EF199800F392D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5106D60721EF199800F392D4 /* ZYCycleScrollView_OC */,
+				5106D61F21EF199900F392D4 /* ZYCycleScrollView_OCTests */,
+				5106D62A21EF199900F392D4 /* ZYCycleScrollView_OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5106D60621EF199800F392D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5106D61821EF199900F392D4 /* LaunchScreen.storyboard in Resources */,
+				5106D61521EF199900F392D4 /* Assets.xcassets in Resources */,
+				5106D61321EF199800F392D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5106D61E21EF199900F392D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5106D62921EF199900F392D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8ADF7E4E939DA16DA5B3ECEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYCycleScrollView_OCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CD61976C24B4E81E08ED957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYCycleScrollView_OCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2380CC306A16E8DB96C9248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYCycleScrollView_OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5106D60421EF199800F392D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5106D61021EF199800F392D4 /* ViewController.m in Sources */,
+				5106D61B21EF199900F392D4 /* main.m in Sources */,
+				5106D60D21EF199800F392D4 /* AppDelegate.m in Sources */,
+				511988C421F5B16400130E4F /* ZYCycleScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5106D61C21EF199900F392D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5106D62521EF199900F392D4 /* ZYCycleScrollView_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5106D62721EF199900F392D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5106D63021EF199900F392D4 /* ZYCycleScrollView_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5106D62221EF199900F392D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5106D60721EF199800F392D4 /* ZYCycleScrollView_OC */;
+			targetProxy = 5106D62121EF199900F392D4 /* PBXContainerItemProxy */;
+		};
+		5106D62D21EF199900F392D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5106D60721EF199800F392D4 /* ZYCycleScrollView_OC */;
+			targetProxy = 5106D62C21EF199900F392D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5106D61121EF199800F392D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5106D61221EF199800F392D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5106D61621EF199900F392D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5106D61721EF199900F392D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5106D63221EF199900F392D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5106D63321EF199900F392D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5106D63521EF199900F392D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478C1E309961B3E31787B10A /* Pods-ZYCycleScrollView_OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleScrollView_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fu.ZYCycleScrollView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5106D63621EF199900F392D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A25FF8270B8125B5F7059F5 /* Pods-ZYCycleScrollView_OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleScrollView_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fu.ZYCycleScrollView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5106D63821EF199900F392D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9B77BFD309FD27B5A73F5F /* Pods-ZYCycleScrollView_OCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleScrollView_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fu.ZYCycleScrollView-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCycleScrollView_OC.app/ZYCycleScrollView_OC";
+			};
+			name = Debug;
+		};
+		5106D63921EF199900F392D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6450AEE1AE34140344CDAFD1 /* Pods-ZYCycleScrollView_OCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleScrollView_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fu.ZYCycleScrollView-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCycleScrollView_OC.app/ZYCycleScrollView_OC";
+			};
+			name = Release;
+		};
+		5106D63B21EF199900F392D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842B9F7760607C97BBD02C0D /* Pods-ZYCycleScrollView_OCUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleScrollView_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fu.ZYCycleScrollView-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYCycleScrollView_OC;
+			};
+			name = Debug;
+		};
+		5106D63C21EF199900F392D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE11F78E96BD53D0CB51F4A0 /* Pods-ZYCycleScrollView_OCUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleScrollView_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fu.ZYCycleScrollView-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYCycleScrollView_OC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5106D60321EF199800F392D4 /* Build configuration list for PBXProject "ZYCycleScrollView_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5106D63221EF199900F392D4 /* Debug */,
+				5106D63321EF199900F392D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5106D63421EF199900F392D4 /* Build configuration list for PBXNativeTarget "ZYCycleScrollView_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5106D63521EF199900F392D4 /* Debug */,
+				5106D63621EF199900F392D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5106D63721EF199900F392D4 /* Build configuration list for PBXNativeTarget "ZYCycleScrollView_OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5106D63821EF199900F392D4 /* Debug */,
+				5106D63921EF199900F392D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5106D63A21EF199900F392D4 /* Build configuration list for PBXNativeTarget "ZYCycleScrollView_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5106D63B21EF199900F392D4 /* Debug */,
+				5106D63C21EF199900F392D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5106D60021EF199800F392D4 /* Project object */;
+}
